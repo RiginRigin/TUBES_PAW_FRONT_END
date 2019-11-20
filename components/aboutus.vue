@@ -38,7 +38,10 @@
 </template>
 <template >
       <!-- kotak awards -->
+<div class="container">
+  <div class="row">
   <v-card
+  class="pa-md-4 mx-lg"
    max-width="344"
     
   >
@@ -85,22 +88,23 @@
     </v-expand-transition>
   </v-card>
 
+
 <!-- kotak activities -->
    <v-card
-    class="mx-auto"
+    class="pa-md-4 mx-lg"
     max-width="344"
+    style="margin-left:50px"
   >
     <v-img 
       src="https://img.pngio.com/index-of-pub-1st-year-html-cv-html-2-activities-png-250_252.png"
       height="200px"
+      width="640px"
     ></v-img>
 
     <v-card-title>
       Activities
     </v-card-title>
-    <v-card-subtitle>
-      Activities of Pace Hotel
-    </v-card-subtitle>
+
     <v-card-actions>
       <v-btn
         color="yellow"
@@ -130,9 +134,11 @@
     </v-expand-transition>
   </v-card>
 
+
   <!-- kotak locations -->
   
   <v-card
+  class="pa-md-4 mx-lg-auto"
    max-width="344"
     
   >
@@ -175,7 +181,10 @@
       </div>
     </v-expand-transition>
   </v-card>
-  <p style="height:200px;"></p>
+</div>
+</div>
+
+<p style="height:90px;"></p>
 </template>
 <!-- batas 2 -->
 <!-- footer -->
